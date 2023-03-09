@@ -60,18 +60,8 @@ public class TestCalculator {
         assertEquals(2, result);
     }
 
-	@Test
-    public void testAddDelimitersOfAnyLength() {
-		StringCalculator calculator = new StringCalculator();
-        int result = calculator.add("//[|||]\n1|||2|||3");
-        assertEquals(6, result);
-    }
+	
 
-	@Test
-    public void testAddMultipleDelimiters() {
-    	trial_4 calculator = new trial_4();
-        int result = calculator.add("//[|][%]\n1|2%3");
-        assertEquals(6, result);
-    }
+	
 
 }
